@@ -336,7 +336,6 @@ position: absolute;
 top: -50px;
 right: 300px;
 display: none;
-/* filter: brightness(25%); */
 }
 
 .click_Image2_Div{
@@ -352,8 +351,24 @@ display: none;
     display: none;
     }
     .colseImage{
+      cursor: pointer;
       width: 30px;
       position: relative;
       top: -460px;
       right: 40px;
+    }
+    /* profil area */
+    .profileDiv{
+       position: relative;
+    }
+    .profilImage{
+      width: 100%;
+      height: 400px;
+      filter: brightness(25%);
+     
+    }
+    .a1{
+      color: white;
+position: absolute;
+top: 20px;
     }
