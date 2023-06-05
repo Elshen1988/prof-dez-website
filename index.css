@@ -1,0 +1,359 @@
+/* Heder styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+.logo {
+  background-color: rgb(233, 233, 233);
+  height: 200px;
+
+}
+
+.logo h1 {
+  color: green;
+  font-size: 70px;
+  margin-left: 40px;
+  margin-right: 300px;
+}
+
+h1 span {
+  font-size: 25px;
+}
+
+.dispalyFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navigator {
+  width: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.street {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.vl {
+  border-left: 2px solid rgb(126, 125, 125);
+  height: 40px;
+  margin-left: 50px;
+  display: inline;
+}
+
+.clock {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Big meny */
+.bigMeny {
+  height: 70px;
+  background-color: #249cc8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+
+}
+
+.bigMeny a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  font-weight: 700;
+}
+
+.bigMeny a:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+}
+
+select {
+  background: transparent;
+  color: rgb(96, 96, 96);
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+select:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+option {
+  color: rgb(96, 96, 96);
+  font-weight: 600;
+}
+
+/* carusel */
+.carousel-wrapper {
+  width: 100%;
+
+  height: 600px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.carousel-wrapper .slide-number {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #249cc88e;
+  z-index: 2;
+}
+
+.carousel-wrapper .carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+
+  opacity: 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 5px #1b070f, -2px 2px 5px #1b070f;
+  box-shadow: 0px 0px 5px #1b070f, -2px 2px 5px #1b070f;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  z-index: 1;
+}
+
+.carousel-wrapper .carousel-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.carousel-wrapper .carousel-item[data-active-slide] {
+  opacity: 1;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.carousel-wrapper .carousel-arrow {
+  position: absolute;
+  background: none;
+  font-size: 60px;
+  border: 0;
+  z-index: 2;
+  color: #249cc88e;
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+}
+
+.carousel-wrapper .carousel-arrow[disabled],
+.carousel-wrapper .carousel-arrow:disabled {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+.carousel-wrapper .carousel-arrow[disabled]:hover,
+.carousel-wrapper .carousel-arrow:disabled:hover {
+  background: none;
+}
+
+.carousel-wrapper .carousel-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.carousel-wrapper .next {
+  right: 0;
+}
+
+.carousel-wrapper .prev {
+  left: 0;
+}
+
+.carousel-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 6px;
+  z-index: 2;
+}
+
+.carousel-dots .dots {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-dots .dots[data-active-dot] {
+  background-color: #249cc88e;
+}
+
+/* line */
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(87, 87, 87);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #249cc88e;
+  height: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.blurDiv {
+  margin-bottom: 90px;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(./image/caruselmage/0001blur.jpg) no-repeat right / contain #d4d5b2;
+}
+
+.aboutUs {
+  width: 100%;
+  height: 800px;
+  backdrop-filter: brightness(35%);
+  color: #c3c3c3;
+  font-size: 25px;
+}
+
+.aboutUs p {
+  font-style: italic;
+  letter-spacing: 3px;
+  line-height: 40px;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  left: 100px;
+}
+
+/* services */
+.services {
+  position: relative;
+}
+
+.services p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #0593c7;
+  margin-top: 25px;
+}
+
+.serviceImg {
+  display: flex;
+  justify-content: center;
+}
+
+.serviceImg img {
+  width: 350px;
+  height: 200px;
+  margin: 75px 25px 0px 25px;
+  border-radius: 10px;
+}
+
+.serviceline {
+  background-color: #1b070f;
+  width: 70px;
+  height: 1.5px;
+  margin-left: 170px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.serviceline1 {
+  margin: 0.5% 50% 1% 48%;
+  background-color: #1b070f;
+  width: 70px;
+  height: 1.5px;
+}
+
+.zoomDiv img {
+  width: 60px;
+  height: 60px;
+
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.zoomDiv {
+  opacity: 0;
+  position: absolute;
+  top: 60px;
+  left: 140px;
+}
+
+.positionRelative:hover .serviceHover {
+  cursor: pointer;
+  transition: all 300ms;
+  filter: brightness(35%);
+}
+
+.positionRelative:hover .zoomDiv {
+  opacity: 0.7;
+}
+/* click services area */
+.serviceCenter{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+}
+.click_Image1_Div{
+position: absolute;
+top: -50px;
+right: 300px;
+display: none;
+/* filter: brightness(25%); */
+}
+
+.click_Image2_Div{
+  position: absolute;
+  top: -50px;
+  right: 300px;
+  display: none;
+  }
+  .click_Image3_Div{
+    position: absolute;
+    top: -50px;
+    right: 300px;
+    display: none;
+    }
+    .colseImage{
+      width: 30px;
+      position: relative;
+      top: -460px;
+      right: 40px;
+    }

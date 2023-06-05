@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1067px){
+.bigMeny {
+    
+    min-height:100%;
+    position:fixed;
+    z-index: 8;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+}
