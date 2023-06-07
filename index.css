@@ -40,11 +40,11 @@ h1 span {
 
 .street {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 13px;
 }
 
 .vl {
-  border-left: 2px solid rgb(126, 125, 125);
+  border-left: 1.5px solid rgb(174, 174, 174);
   height: 40px;
   margin-left: 50px;
   display: inline;
@@ -96,7 +96,7 @@ select:hover {
 
 option {
   color: rgb(96, 96, 96);
-  font-weight: 600;
+  font-size: 20px;
 }
 
 /* carusel */
@@ -230,31 +230,21 @@ option {
 }
 
 .blurDiv {
-  margin-bottom: 90px;
   position: relative;
-  width: 100%;
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: url(./image/caruselmage/0001blur.jpg) no-repeat right / contain #d4d5b2;
 }
 
-.aboutUs {
+.bulurImage {
   width: 100%;
   height: 800px;
-  backdrop-filter: brightness(35%);
-  color: #c3c3c3;
-  font-size: 25px;
+  filter: brightness(45%);
 }
 
-.aboutUs p {
-  font-style: italic;
-  letter-spacing: 3px;
-  line-height: 40px;
+.blurDiv p {
+   color: rgb(212, 212, 212);
   position: absolute;
-  top: 120px;
-  right: 100px;
-  left: 100px;
+  top: 20px;
+  font-size: 30px;
+  padding: 70px;
 }
 
 /* services */
@@ -263,12 +253,13 @@ option {
 }
 
 .services p {
+  position: relative;
   display: flex;
   justify-content: center;
   font-size: 25px;
   font-weight: 600;
   color: #0593c7;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .serviceImg {
@@ -286,17 +277,18 @@ option {
 .serviceline {
   background-color: #1b070f;
   width: 70px;
-  height: 1.5px;
+  height: 1px;
   margin-left: 170px;
-  margin-bottom: 30px;
-  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-top: -30px;
+ 
 }
 
 .serviceline1 {
-  margin: 0.5% 50% 1% 48%;
+  margin: -2% 50% 1% 48%;
   background-color: #1b070f;
   width: 70px;
-  height: 1.5px;
+  height: 1px;
 }
 
 .zoomDiv img {
@@ -307,6 +299,9 @@ option {
 
 .positionRelative {
   position: relative;
+}
+.positionRelative p{
+  margin-top: -50px;
 }
 
 .zoomDiv {
@@ -335,21 +330,21 @@ option {
 
 .click_Image1_Div {
   position: absolute;
-  top: -50px;
+  top: 40px;
   right: 300px;
   display: none;
 }
 
 .click_Image2_Div {
   position: absolute;
-  top: -50px;
+  top: 40px;
   right: 300px;
   display: none;
 }
 
 .click_Image3_Div {
   position: absolute;
-  top: -50px;
+  top: 40px;
   right: 300px;
   display: none;
 }
@@ -375,20 +370,20 @@ option {
 }
 
 .profileDiv p {
-  color: white;
+  color: rgb(220, 220, 220);
   position: absolute;
-  top: 20px;
+  top: 1px;
 }
 
 .profileDiv div {
   position: absolute;
   top: 40px;
   display: block;
-  border: 3px solid rgb(238, 174, 12);
+  border: 3px solid rgb(252, 180, 0);
   border-radius: 4px;
   width: 130px;
   height: 30px;
-  margin-top: 200px;
+  margin-top: 250px;
   margin-left: 200px;
 }
 
@@ -409,6 +404,7 @@ option {
 /* about our services area */
 .aboutServiceMainMainDiv{
   position: relative;
+  
 }
 .aboutServiceMainDiv {
   margin-top: 50px;
@@ -447,9 +443,18 @@ option {
   width: 90px;
 }
 .aboutServiceDiv1{
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 20px;
   left: 500px;
-  display: flex;
-  align-items: center;
+
+  
+}
+.aboutServiceDiv1 p{
+ position: absolute;
+ top: -35px;
+ left: 90px;
+  font-size: 20px;
+  color: #474747;
 }
