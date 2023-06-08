@@ -243,8 +243,11 @@ option {
    color: rgb(232, 231, 231);
   position: absolute;
   top: 20px;
-  font-size: 30px;
+  font-size: 20px;
   padding: 70px;
+}
+.blurmainDiv{
+  position: relative;
 }
 
 /* services */
@@ -361,13 +364,13 @@ option {
 .profileDiv {
   position: relative;
 }
-
 .profilImage {
-  width: 100%;
-  height: 400px;
-  filter: brightness(45%);
-
-}
+  width: 100%; 
+  height: 400px; 
+  object-fit: cover;
+  object-position: 25% 25%; 
+  filter: brightness(45%)
+  }
 
 .profileDiv p {
   color: rgb(220, 220, 220);
@@ -414,6 +417,7 @@ option {
   
 }
 
+
 .aboutServiceDiv {
   background-color: #e5e5e5;
   width: 250px;
@@ -430,6 +434,7 @@ option {
 .aboutServiceimg1{
  
   width: 150px;
+  
 }
 .aboutServiceimg2{
  
@@ -449,6 +454,7 @@ option {
   top: 20px;
   left: 500px;
   display: block;
+
 }
 .aboutServiceDiv2{
   display: flex;
@@ -480,7 +486,7 @@ option {
  position: absolute;
  top: -35px;
  left: 90px;
-  font-size: 20px;
+  font-size: 15px;
   color: #474747;
   width: 700px;
 
@@ -495,7 +501,7 @@ option {
   position: absolute;
   top: -35px;
   left: 90px;
-   font-size: 20px;
+   font-size: 15px;
    color: #474747;
    width: 700px;
  
@@ -510,7 +516,7 @@ option {
   position: absolute;
   top: -35px;
   left: 90px;
-   font-size: 20px;
+   font-size: 15px;
    color: #474747;
    width: 700px;
  
@@ -525,7 +531,7 @@ option {
   position: absolute;
   top: -45px;
   left: 90px;
-   font-size: 20px;
+   font-size: 15px;
    color: #474747;
    width: 700px;
  
@@ -536,3 +542,6 @@ option {
    left: 90px;
    top: -45px;
  }
+ .aboutServiceDivClick1{
+  background-color: #99a6ba;
+}
