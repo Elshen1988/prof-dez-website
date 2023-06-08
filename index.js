@@ -97,7 +97,6 @@ let click_Image1_Div=document.querySelector(".click_Image1_Div")
 let click_Image2_Div=document.querySelector(".click_Image2_Div")
 let click_Image3_Div=document.querySelector(".click_Image3_Div")
 
-let body=document.querySelector("body")
 
 
 im1.addEventListener('click',()=>{
@@ -126,6 +125,67 @@ colseImage.forEach((e)=>{
 })
 })
 // about our service area............................
+let aboutServiceDivClick1=document.querySelector(".aboutServiceDivClick1")
+let aboutServiceDivClick2=document.querySelector(".aboutServiceDivClick2")
+let aboutServiceDivClick3=document.querySelector(".aboutServiceDivClick3")
+let aboutServiceDivClick4=document.querySelector(".aboutServiceDivClick4")
+let aboutServiceDiv1=document.querySelector(".aboutServiceDiv1")
+let aboutServiceDiv2=document.querySelector(".aboutServiceDiv2")
+let aboutServiceDiv3=document.querySelector(".aboutServiceDiv3")
+let aboutServiceDiv4=document.querySelector(".aboutServiceDiv4")
+
+
+aboutServiceDivClick1.addEventListener('click',()=>{
+
+    aboutServiceDiv1.style.display="block"
+    aboutServiceDiv2.style.display="none"
+    aboutServiceDiv3.style.display="none"
+    aboutServiceDiv4.style.display="none"
+    aboutServiceDivClick1.style.background="#99a6ba"
+    aboutServiceDivClick2.style.background="#e5e5e5"
+    aboutServiceDivClick3.style.background="#e5e5e5"
+    aboutServiceDivClick4.style.background="#e5e5e5"
+
+})
+aboutServiceDivClick2.addEventListener('click',()=>{
+
+    aboutServiceDiv1.style.display="none"
+    aboutServiceDiv2.style.display="block"
+    aboutServiceDiv3.style.display="none"
+    aboutServiceDiv4.style.display="none"
+    aboutServiceDivClick1.style.background="#e5e5e5"
+    aboutServiceDivClick2.style.background="#99a6ba"
+    aboutServiceDivClick3.style.background="#e5e5e5"
+    aboutServiceDivClick4.style.background="#e5e5e5"
+   
+})
+aboutServiceDivClick3.addEventListener('click',()=>{
+
+    aboutServiceDiv1.style.display="none"
+    aboutServiceDiv2.style.display="none"
+    aboutServiceDiv3.style.display="block"
+    aboutServiceDiv4.style.display="none"
+    aboutServiceDivClick1.style.background="#e5e5e5"
+    aboutServiceDivClick2.style.background="#e5e5e5"
+    aboutServiceDivClick3.style.background="#99a6ba"
+    aboutServiceDivClick4.style.background="#e5e5e5"
+   
+})
+aboutServiceDivClick4.addEventListener('click',()=>{
+
+    aboutServiceDiv1.style.display="none"
+    aboutServiceDiv2.style.display="none"
+    aboutServiceDiv3.style.display="none"
+    aboutServiceDiv4.style.display="block"
+    aboutServiceDivClick1.style.background="#e5e5e5"
+    aboutServiceDivClick2.style.background="#e5e5e5"
+    aboutServiceDivClick3.style.background="#e5e5e5"
+    aboutServiceDivClick4.style.background="#99a6ba"
+   
+})
+
+
+
 
 
 

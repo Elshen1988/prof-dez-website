@@ -240,7 +240,7 @@ option {
 }
 
 .blurDiv p {
-   color: rgb(212, 212, 212);
+   color: rgb(232, 231, 231);
   position: absolute;
   top: 20px;
   font-size: 30px;
@@ -448,13 +448,91 @@ option {
   position: absolute;
   top: 20px;
   left: 500px;
-
-  
+  display: block;
 }
+.aboutServiceDiv2{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  display: none;
+ 
+}
+.aboutServiceDiv3{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  display: none;
+}
+.aboutServiceDiv4{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  display: none;
+}
+
 .aboutServiceDiv1 p{
  position: absolute;
  top: -35px;
  left: 90px;
   font-size: 20px;
   color: #474747;
+  width: 700px;
+
 }
+.aboutServiceDiv1 h2{
+  position: absolute;
+  width: 300px;
+  left: 90px;
+  top: -45px;
+}
+.aboutServiceDiv2 p{
+  position: absolute;
+  top: -35px;
+  left: 90px;
+   font-size: 20px;
+   color: #474747;
+   width: 700px;
+ 
+ }
+ .aboutServiceDiv2 h2{
+   position: absolute;
+   width: 300px;
+   left: 90px;
+   top: -45px;
+ }
+ .aboutServiceDiv3 p{
+  position: absolute;
+  top: -35px;
+  left: 90px;
+   font-size: 20px;
+   color: #474747;
+   width: 700px;
+ 
+ }
+ .aboutServiceDiv3 h2{
+   position: absolute;
+   width: 300px;
+   left: 90px;
+   top: -45px;
+ }
+ .aboutServiceDiv4 p{
+  position: absolute;
+  top: -45px;
+  left: 90px;
+   font-size: 20px;
+   color: #474747;
+   width: 700px;
+ 
+ }
+ .aboutServiceDiv4 h2{
+   position: absolute;
+   width: 500px;
+   left: 90px;
+   top: -45px;
+ }
