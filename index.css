@@ -81,9 +81,9 @@ h1 span {
   }
   #manubtn{
     display: none;
-  width: 56px;
-  height: 56px;
-  background: gray;
+  width: 50px;
+  height: 50px;
+  background: rgb(151, 151, 151);
   text-align: center;
   position: fixed;
   right: 30px;

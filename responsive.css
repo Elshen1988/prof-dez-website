@@ -20,7 +20,22 @@
 .serviceImg{
         display: block;
 }
+.street{
+        font-size: 10px;
 }
+i{
+        font-size: 10px;
+}
+.logo h1{
+        margin-right: 70px;
+}
+.displayFlex{
+        display: block;
+}
+}
+
+
+
 @media (max-width: 970px){
 .line p{
         font-size: 10px;
