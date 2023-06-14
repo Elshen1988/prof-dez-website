@@ -86,6 +86,27 @@ function handleClickEvents() {
     showslides(carousel, carouselDots);
 }
 handleClickEvents();
+// litle meny...............
+var manubtn = document.getElementById("manubtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px"
+
+manubtn.onclick = function () {
+    if (sidenav.style.right == "-250px") {
+        sidenav.style.right = "0";
+        menu.src = "./image/aboutService/close.png";
+    }
+    else {
+        sidenav.style.right = "-250px";
+        menu.src = "./image/aboutService/222.png";
+    }
+}
+var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 100,
+    speedAsDuration: true
+});
 
 // service area............................
 let colseImage=document.querySelectorAll(".colseImage")
