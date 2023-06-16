@@ -47,7 +47,7 @@ h1 span {
   border-left: 1.5px solid rgb(174, 174, 174);
   height: 40px;
   margin-left: 50px;
-  display: inline;
+ 
 }
 
 .clock {
@@ -57,7 +57,7 @@ h1 span {
 /* litle meny */
 #sidenav{
   
-  width: 254px;
+  width: 240px;
   height: 100vh;
   position: fixed;
   right: -10px;
@@ -75,7 +75,7 @@ h1 span {
      
   }
   nav ul li a{
-      font-size: 30px;
+      font-size: 25px;
       text-decoration: none;
       color: white;
   }
@@ -283,16 +283,10 @@ option {
   object-position: 35% 15% ;
   filter: brightness(55%);
 }
-.dezinfector{
-  filter: brightness(55%);
-  width: 730px;
-}
-
 .blurDiv p {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 1px;
-
   font-size: 20px;
   padding: 70px;
 }
@@ -423,6 +417,7 @@ option {
 /* profil area */
 .profileDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -446,7 +441,6 @@ option {
 .profileDiv div {
   position: absolute;
   top: 40px;
-
   display: block;
   border: 3px solid rgb(252, 180, 0);
   border-radius: 4px;
@@ -477,14 +471,8 @@ option {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+}
 
-}
-.displayFlex{
-   display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .aboutServiceMainDiv {
   margin-top: 90px;

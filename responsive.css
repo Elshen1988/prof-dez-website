@@ -1,47 +1,164 @@
-
-@media (max-width: 1260px){
+@media (max-width: 1260px) {
 
         .bigMeny {
-       display: none;
-}
-#manubtn{
-        display: block;    
-}
-.logoimage{
-        width: 100px;
-}
-.logo h1{
-        font-size: 10px;
-        width: 300px;
-}
-.profileDiv p{
-        width: 700px;
-}
-.serviceImg{
-        display: block;
-}
-.street{
-        font-size: 10px;
-}
-i{
-        font-size: 10px;
-}
-.logo h1{
-        margin-right: 70px;
-}
-.displayFlex{
-        display: block;
-}
+                display: none;
+        }
+
+        #manubtn {
+                display: block;
+        }
+
+        .logoimage {
+                width: 100px;
+        }
+
+        .logo h1 {
+                margin-left: 5px;
+                margin-right: 0;
+                font-size: 20px;
+                width: 300px;
+        }
+
+        .logo h1 span {
+                font-size: 13px;
+        }
+
+        .profileDiv p {
+                width: 700px;
+        }
+
+        .serviceImg {
+                display: block;
+        }
+
+        .street {
+                font-size: 10px;
+        }
+
+        i {
+                font-size: 10px;
+        }
+
+        .logo h1 {
+                margin-right: 300px;
+        }
+
+        .displayFlex {
+                display: block;
+        }
+
+        .aboutServiceDiv1 p {
+                display: flex;
+                flex-wrap: wrap;
+                width: 300px;
+        }
+
+
 }
 
 
 
-@media (max-width: 970px){
-.line p{
-        font-size: 10px;
-}
-.line{
-        margin-left: 100px;
-        margin-right: 100px;
-}
+@media (max-width: 970px) {
+        .line p {
+                font-size: 10px;
+        }
+
+        .line {
+                margin-left: 100px;
+                margin-right: 100px;
+        }
+
+        .dispalyFlex {
+                flex-wrap: wrap;
+        }
+
+        .logo {
+                height: 500px;
+        }
+
+        .vl {
+                display: none;
+        }
+
+        .profileDiv p {
+                font-size: 25px;
+                margin-left: 50px;
+                width: 200px;
+        }
+
+        .profileDiv div {
+                margin-left: 20px;
+        }
+
+        .aboutServiceDiplay {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+        }
+
+        .aboutServiceDiv1 {
+                position: absolute;
+                top: 350px;
+                left: -200px;
+
+        }
+
+        .aboutServiceDiv1 p {
+                position: relative;
+                width: 200px;
+                left: 250px;
+                top: -150px;
+
+        }
+        .aboutServiceDiv1 h2 {
+                left: 210px;
+        }
+        .aboutServiceDiv2 {
+                position: absolute;
+                top: 350px;
+                left: -200px;
+
+        }
+
+        .aboutServiceDiv2 p {
+                position: relative;
+                width: 200px;
+                left: 250px;
+                top: -130px;
+
+        }
+        .aboutServiceDiv2 h2 {
+                left: 210px;
+        }
+        .aboutServiceMainDiv {
+                margin-left: 5px;
+        }
+
+        .blurDiv p {
+
+                font-size: 15px;
+                padding: 20px;
+        }
+
+        .logo h1 {
+                margin-left: 150px;
+                margin-right: 0px;
+        }
+
+        .serviceImg img {
+                width: 250px;
+                height: 150px;
+        }
+
+        .zoomDiv img {
+                position: relative;
+                left: -40px;
+                top: -10px;
+                width: 60px;
+                height: 60px;
+        }
+
+        .positionRelative {
+                margin-bottom: -150px;
+        }
 }
