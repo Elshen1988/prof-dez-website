@@ -59,6 +59,12 @@
 
 
 @media (max-width: 970px) {
+        .navigator{
+                margin-right: 20px;
+        }
+        .locationDiv{
+                margin-right: 20px;
+        }
         .line p {
                 font-size: 10px;
         }
@@ -84,6 +90,9 @@
                 font-size: 25px;
                 margin-left: 50px;
                 width: 200px;
+        }
+        .bulurImage{
+                object-position: 80% 50%;
         }
 
         .profileDiv div {
@@ -139,6 +148,28 @@
                 font-size: 15px;
                 padding: 20px;
         }
+        .serviceCenter {
+                width: 350px;
+                height: 300px;
+                border-radius: 10px;
+              }
+              .colseImage {
+                width: 30px;
+                top: -300px;
+                right: -1px;
+              }
+        .click_Image1_Div {
+                top: 100px;
+                left: 1%;
+              }
+              .click_Image2_Div {
+                top: 500px;
+                left: 1%;
+              }
+              .click_Image3_Div {
+                top: 870px;
+                left: 1%;
+              }
 
         .logo h1 {
                 margin-left: 150px;
