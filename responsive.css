@@ -59,19 +59,21 @@
 
 
 @media (max-width: 970px) {
-        .navigator{
+        .navigator {
                 margin-right: 20px;
         }
-        .locationDiv{
+
+        .locationDiv {
                 margin-right: 20px;
         }
+
         .line p {
                 font-size: 10px;
         }
 
         .line {
-                margin-left: 100px;
-                margin-right: 100px;
+                margin-left: 50px;
+                margin-right: 50px;
         }
 
         .dispalyFlex {
@@ -91,18 +93,13 @@
                 margin-left: 50px;
                 width: 200px;
         }
-        .bulurImage{
+
+        .bulurImage {
                 object-position: 80% 50%;
         }
 
         .profileDiv div {
                 margin-left: 20px;
-        }
-
-        .aboutServiceDiplay {
-                display: flex;
-                justify-content: center;
-                flex-direction: column;
         }
 
         .aboutServiceDiv1 {
@@ -111,17 +108,26 @@
                 left: -200px;
 
         }
+        .aboutServiceDiv1 h2 {
+                left: 210px;
+        }
+
+        .aboutServiceimg1 {
+                width: 250px;
+                opacity: 0.3;
+                position: relative;
+                top: -10px;
+                left: 230px;
+        }
 
         .aboutServiceDiv1 p {
                 position: relative;
                 width: 200px;
                 left: 250px;
-                top: -150px;
+                top: -250px;
+                font-weight: 600;
+        }
 
-        }
-        .aboutServiceDiv1 h2 {
-                left: 210px;
-        }
         .aboutServiceDiv2 {
                 position: absolute;
                 top: 350px;
@@ -129,16 +135,78 @@
 
         }
 
+        .aboutServiceimg2 {
+                width: 200px;
+                opacity: 0.3;
+                position: relative;
+                top: -10px;
+                left: 230px;
+        }
+
         .aboutServiceDiv2 p {
                 position: relative;
                 width: 200px;
                 left: 250px;
-                top: -130px;
-
+                top: -200px;
+                font-weight: 600;
         }
+
         .aboutServiceDiv2 h2 {
                 left: 210px;
         }
+        .aboutServiceDiv3 {
+                position: absolute;
+                top: 350px;
+                left: -200px;
+
+        }
+        .aboutServiceDiv3 h2 {
+                left: 210px;
+        }
+
+        .aboutServiceimg3 {
+                width: 200px;
+                opacity: 0.3;
+                position: relative;
+                top: -10px;
+                left: 230px;
+        }
+
+        .aboutServiceDiv3 p {
+                position: relative;
+                width: 200px;
+                left: 250px;
+                top: -200px;
+                font-weight: 600;
+        }
+        .aboutServiceDiv4 {
+                position: absolute;
+                top: 350px;
+                left: -200px;
+
+        }
+        .aboutServiceDiv4 h2 {
+                left: 250px;
+                width: 250px;
+        }
+
+        .aboutServiceimg4 {
+                width: 160px;
+                opacity: 0.3;
+                position: relative;
+                top: 20px;
+                left: 250px;
+        }
+
+        .aboutServiceDiv4 p {
+                position: relative;
+                width: 200px;
+                left: 250px;
+                top: -140px;
+                font-weight: 600;
+
+        }
+
         .aboutServiceMainDiv {
                 margin-left: 5px;
         }
@@ -148,28 +216,33 @@
                 font-size: 15px;
                 padding: 20px;
         }
+
         .serviceCenter {
                 width: 350px;
                 height: 300px;
                 border-radius: 10px;
-              }
-              .colseImage {
+        }
+
+        .colseImage {
                 width: 30px;
                 top: -300px;
                 right: -1px;
-              }
+        }
+
         .click_Image1_Div {
                 top: 100px;
                 left: 1%;
-              }
-              .click_Image2_Div {
+        }
+
+        .click_Image2_Div {
                 top: 500px;
                 left: 1%;
-              }
-              .click_Image3_Div {
-                top: 870px;
+        }
+
+        .click_Image3_Div {
+                top: 860px;
                 left: 1%;
-              }
+        }
 
         .logo h1 {
                 margin-left: 150px;
