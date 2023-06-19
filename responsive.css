@@ -53,6 +53,24 @@
                 width: 300px;
         }
 
+        .carousel-wrapper {
+                z-index: 1;
+        }
+
+        .sidenav {
+                z-index: 9;
+        }
+
+        .Qalireyaimg {
+                display: block;
+                width: 100%;
+                margin-top: 10px;
+        }
+
+        .QALEREYASpace {
+                height: 400px;
+        }
+
 
 }
 
@@ -108,6 +126,7 @@
                 left: -200px;
 
         }
+
         .aboutServiceDiv1 h2 {
                 left: 210px;
         }
@@ -154,12 +173,14 @@
         .aboutServiceDiv2 h2 {
                 left: 210px;
         }
+
         .aboutServiceDiv3 {
                 position: absolute;
                 top: 350px;
                 left: -200px;
 
         }
+
         .aboutServiceDiv3 h2 {
                 left: 210px;
         }
@@ -179,12 +200,14 @@
                 top: -200px;
                 font-weight: 600;
         }
+
         .aboutServiceDiv4 {
                 position: absolute;
                 top: 350px;
                 left: -200px;
 
         }
+
         .aboutServiceDiv4 h2 {
                 left: 250px;
                 width: 250px;

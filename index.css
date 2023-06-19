@@ -75,12 +75,12 @@ h1 span {
      
   }
   nav ul li a{
-      font-size: 25px;
+      font-size: 20px;
       text-decoration: none;
       color: white;
   }
   #manubtn{
-    display: none;
+  display: none;
   width: 50px;
   height: 50px;
   background: rgb(151, 151, 151);
@@ -615,4 +615,22 @@ option {
 
 .aboutServiceDivClick1 {
   background-color: #99a6ba;
+}
+/* QALEREYA */
+.QALEREYA{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+  margin-top: 50px;
+}
+.QALEREYALine{
+  width:90px;
+  height: 1px;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: #1b070f;
+}
+.Qalireyaimg{
+  width: 23%;
 }
