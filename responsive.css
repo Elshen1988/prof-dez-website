@@ -9,16 +9,15 @@
         }
 
         .logoimage {
-                width: 100px;
+                width: 200px;
         }
 
         .logo h1 {
-                margin-left: 5px;
-                margin-right: 0;
+                position: relative;
+                left: -70px;
                 font-size: 20px;
-                width: 300px;
+                width: 150px;
         }
-
         .logo h1 span {
                 font-size: 13px;
         }
@@ -37,10 +36,6 @@
 
         i {
                 font-size: 10px;
-        }
-
-        .logo h1 {
-                margin-right: 300px;
         }
 
         .displayFlex {
@@ -99,7 +94,18 @@
         }
 
         .logo {
-                height: 500px;
+                height: 400px;
+        }
+        .tel{
+                margin-left: 10px;
+        }
+        .tel1{
+                position: relative;
+                left: 30px;
+        }
+        .saat{
+                position: relative;
+                left: 10px;
         }
 
         .vl {
