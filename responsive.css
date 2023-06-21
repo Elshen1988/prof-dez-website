@@ -13,13 +13,7 @@
         }
 
         .logo h1 {
-                position: relative;
-                left: -70px;
-                font-size: 20px;
-                width: 150px;
-        }
-        .logo h1 span {
-                font-size: 13px;
+                display: none;
         }
 
         .profileDiv p {
@@ -94,16 +88,20 @@
         }
 
         .logo {
-                height: 400px;
+                height: 450px;
         }
-        .tel{
+
+        .tel {
                 margin-left: 10px;
         }
-        .tel1{
+
+        .tel1 {
                 position: relative;
                 left: 30px;
+                top: 10px;
         }
-        .saat{
+
+        .saat {
                 position: relative;
                 left: 10px;
         }
@@ -294,4 +292,8 @@
         .positionRelative {
                 margin-bottom: -150px;
         }
+        .container {
+                max-width: 100%;
+
+              }
 }
