@@ -67,7 +67,8 @@
 
 @media (max-width: 970px) {
         .navigator {
-                margin-right: 20px;
+          margin-left: 10px;
+          margin-bottom: -1px;
         }
 
         .locationDiv {
@@ -91,14 +92,9 @@
                 height: 450px;
         }
 
-        .tel {
-                margin-left: 10px;
-        }
-
         .tel1 {
                 position: relative;
                 left: 30px;
-                top: 10px;
         }
 
         .saat {
@@ -295,5 +291,9 @@
         .container {
                 max-width: 100%;
 
+              }
+              .bottom p{
+                font-size: 8px;
+                padding: 16px 11px 0px 11px;
               }
 }
