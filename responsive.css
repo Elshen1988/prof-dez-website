@@ -13,7 +13,12 @@
         }
 
         .logo h1 {
-                display: none;
+                /* position: relative;
+                left: -90px;
+               font-size: 23px;
+               margin: 0;
+               padding: 0; */
+               display: none;
         }
 
         .profileDiv p {
