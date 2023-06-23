@@ -647,6 +647,10 @@ option {
   width: 23%;
   border-radius: 5px;
 }
+.videoFiles{
+  width:600px;
+  height:300px;
+}
 
 /* contact us area */
 body {
