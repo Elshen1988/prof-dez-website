@@ -723,16 +723,24 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 /* footer area */
-.footerDiv{
-  display: flex;
-  flex-direction:column;
-  align-items: end;
-  
-}
+
 .hight{
   background-color: #d2d2d2;
-  height: 200px;
+  height: 250px;
   width: 100%;
+}
+.costmersimg{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.footerFlex{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -40px;
 }
 .bottom{
   background-color: #002230;
@@ -753,8 +761,8 @@ input[type="submit"]:hover {
 .futterimg{
   width: 13px;
 }
-.footerimageDiv{
-padding: 40px 0px 40px 80px;
+.tiktokimage{
+  width: 50px;
 }
 .footerimageDiv a{
   text-decoration: none;
@@ -762,8 +770,6 @@ padding: 40px 0px 40px 80px;
   font-size: 8px;
   font-weight: 600;
 }
-.hight1{
-  
- display: flex;
- justify-content: center;
+.hight1 a img{
+width: 30px;
 }
