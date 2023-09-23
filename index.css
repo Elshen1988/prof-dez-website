@@ -726,8 +726,8 @@ input[type="submit"]:hover {
 
 .hight{
   background-color: #d2d2d2;
-  height: 250px;
-  width: 100%;
+  min-height: 250px;
+  max-width: 100%;
 }
 .costmersimg{
   width: 100px;
